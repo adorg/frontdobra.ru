@@ -501,17 +501,10 @@ window.wp = window.wp || {};
 					}
 				} );
 
-				if ( self.iframeHeight ) {
-					dom.add( contentNode, 'div', { style: {
-						width: '100%',
-						height: self.iframeHeight
-					} } );
-				}
-
 				// Seems the browsers need a bit of time to insert/set the view nodes,
 				// or the iframe will fail especially when switching Text => Visual.
 				setTimeout( function() {
-					var iframe, iframeDoc, observer, i, block;
+					var iframe, iframeDoc, observer, i;
 
 					contentNode.innerHTML = '';
 
@@ -525,8 +518,7 @@ window.wp = window.wp || {};
 						style: {
 							width: '100%',
 							display: 'block'
-						},
-						height: self.iframeHeight
+						}
 					} );
 
 					dom.add( contentNode, 'div', { 'class': 'wpview-overlay' } );
@@ -569,31 +561,18 @@ window.wp = window.wp || {};
 					iframeDoc.close();
 
 					function resize() {
-						var $iframe;
-
-						if ( block ) {
-							return;
-						}
+						var $iframe, iframeDocHeight;
 
 						// Make sure the iframe still exists.
 						if ( iframe.contentWindow ) {
 							$iframe = $( iframe );
-							self.iframeHeight = $( iframeDoc.body ).height();
+							iframeDocHeight = $( iframeDoc.body ).height();
 
-							if ( $iframe.height() !== self.iframeHeight ) {
-								$iframe.height( self.iframeHeight );
+							if ( $iframe.height() !== iframeDocHeight ) {
+								$iframe.height( iframeDocHeight );
 								editor.nodeChanged();
 							}
 						}
-					}
-
-					if ( self.iframeHeight ) {
-						block = true;
-
-						setTimeout( function() {
-							block = false;
-							resize();
-						}, 3000 );
 					}
 
 					$( iframe.contentWindow ).on( 'load', resize );
