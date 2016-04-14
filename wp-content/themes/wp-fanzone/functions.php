@@ -229,7 +229,7 @@ function wp_fanzone_breadcrumb() {
         echo '<li><a href="';
         echo home_url();
         echo '">';
-        echo 'Home';
+        echo 'Главная';
         echo '</a></li><li class="separator"> / </li>';
         if (is_category() || is_single()) {
             echo '<li>';
