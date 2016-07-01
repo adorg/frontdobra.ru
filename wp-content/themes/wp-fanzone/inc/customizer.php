@@ -34,7 +34,7 @@ if ( ! function_exists( 'wp_fanzone_theme_customizer' ) ) :
 		
 		/* color theme */
 		$wp_customize->add_setting( 'wp_fanzone_theme_color', array (
-			'default' => '#339390',
+			'default' => '#298929',
 			'sanitize_callback' => 'sanitize_hex_color',
 		) );
 		
