@@ -1,87 +1,135 @@
 === Google Captcha (reCAPTCHA) by BestWebSoft ===
 Contributors: bestwebsoft
-Donate link: http://bestwebsoft.com/donate/
-Tags: antispam, captcha, capcha, security, website security, google captcha, google captcha plugin, recaptcha, recaptcha plugin, add recaptcha, recaptcha protection, spam protection
-Requires at least: 3.8
-Tested up to: 4.5.3
-Stable tag: 1.24
+Donate link: https://bestwebsoft.com/donate/
+Tags: anti-spam security, antispam, recaptcha, captcha, captha, Invisible reCaptcha, Invisible captcha, Invisibl reCaptcha, comment, cpatcha, google catcha, Invisible re captcha
+Requires at least: 3.9
+Tested up to: 4.9.8
+Stable tag: 1.37
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Protect WordPress website forms from spam entries with Google Captcha (reCaptcha).
+Protect WordPress website forms from spam entries with Google reCAPTCHA.
 
 == Description ==
 
-Google Captcha (reCAPTCHA) plugin allows you to implement a super security Captcha into web forms. This plugin can be used for login, registration, password recovery, comments forms.
+Google Captcha (reCAPTCHA) plugin is an effective security solution that protects your WordPress website forms from spam entries while letting real people pass through with ease.  It can be used for login, registration, password recovery, comments, popular contact forms, and other.
+
+Users are required to confirm that they are not a robot before the form can be submitted. It's easy for people and hard for bots.
+
+[View Demo](https://bestwebsoft.com/demo-for-google-captcha/?ref=readme)
 
 http://www.youtube.com/watch?v=qwHsW3IJ7gQ
 
-<a href="http://www.youtube.com/watch?v=RUJ9VwZLFSY" target="_blank">Google Captcha (reCAPTCHA) by BestWebSoft Video instruction on Installation</a>
+= Free Features =
 
-<a href="http://wordpress.org/plugins/google-captcha/faq/" target="_blank">Google Captcha (reCAPTCHA) by BestWebSoft FAQ</a>
+* Add Google Captcha (reCAPTCHA) to:
+	* Registration form
+	* Login form
+	* Reset password form
+	* Comments form
+	* [Contact Form](https://bestwebsoft.com/products/wordpress/plugins/contact-form/?k=56575444122cff9ab3ee3e640efb001a)
+	* Testimonials [NEW]
+	* Custom form
+* Hide Google Captcha (reCAPTCHA) for the whitelisted IP addresses
+* Validity check of keys in admin panel
+* Available Google Captcha (reCAPTCHA) themes for:
+	* Version 1
+		* Red (default)
+		* White
+		* Blackglass
+		* Clean
+	* Version 2
+		* Light (default)
+		* Dark
+* Compatible with [Limit Attempts](https://bestwebsoft.com/products/wordpress/plugins/limit-attempts/?k=1b1865c556920231995b35c3ed889415)
+* Hide Google Captcha (reCAPTCHA) in your forms for certain user roles
+* Supports Google Captcha (reCAPTCHA):
+	* Version 1
+	* Version 2
+	* Invisible reCAPTCHA
+* Add custom code via plugin settings page
+* Compatible with latest WordPress version
+* Incredibly simple settings for fast setup without modifying code
+* Detailed step-by-step documentation and videos
+* Multilingual and RTL ready
 
-<a href="http://support.bestwebsoft.com" target="_blank">Google Captcha (reCAPTCHA) by BestWebSoft Support</a>
+> **Pro Features**
+>
+> All features from Free version included plus:
+>
+> * Compatible with:
+> 	* Contact Form 7 (since v 3.4)
+> 	* [Subscriber](https://bestwebsoft.com/products/wordpress/plugins/subscriber/?k=e6d1742fcf1806a39afac207f7920cf3)
+> 	* [Multilanguage](https://bestwebsoft.com/products/wordpress/plugins/multilanguage/?k=e48e145002e4b2472e568a81d171b888)
+> 	* Jetpack contact form
+> 	* Fast Secure Contact Form
+> 	* MailChimp for WordPress
+> * Compatible with WooCommerce:
+> 	* Login form
+> 	* Register form
+> 	* Lost password form
+> 	* Checkout billing form
+> * Compatible with bbPress:
+> 	* New Topic form
+> 	* Reply form
+> * Compatible with BuddyPress:
+> 	* Registration form
+> 	* Comments form
+> 	* Create a Group form
+> * Compatible with Forums - wpForo:
+> 	* Login form
+> 	* Registration form
+> 	* New Topic form
+> 	* Reply form
+> * Select Google Captcha (reCAPTCHA) language manually
+> * Change size: normal or compact (for version 2)
+> * Configure all subsites on the network
+> * Get answer to your support question within one business day ([Support Policy](https://bestwebsoft.com/support-policy/))
+>
+> [Upgrade to Pro Now](https://bestwebsoft.com/products/wordpress/plugins/google-captcha/?k=c4f2e3054fdbaca8a2b61554cbb9638c)
 
-<a href="http://bestwebsoft.com/products/google-captcha/?k=c4f2e3054fdbaca8a2b61554cbb9638c" target="_blank">Upgrade to Google Captcha (reCAPTCHA) Pro by BestWebSoft</a>
+If you have a feature suggestion or idea you'd like to see in the plugin, we'd love to hear about it! [Suggest a Feature](https://support.bestwebsoft.com/hc/en-us/requests/new)
 
-= Copyrights for resources used in this plugin =
+= Documentation & Videos =
 
-1. In Google Captcha (reCAPTCHA) plugin we used "lib/recaptchalib.php" file. The Licence for this file is in "lib/license.txt" file.
-2. Everything else used in this plugin has been created by Bestwebsoft team and is distributed under GPL license.
+* [[Doc] Installation](https://docs.google.com/document/d/1-hvn6WRvWnOqj5v5pLUk7Awyu87lq5B_dO-Tv-MC9JQ/)
+* [[Doc] Purchase](https://docs.google.com/document/d/1EUdBVvnm7IHZ6y0DNyldZypUQKpB8UVPToSc_LdOYQI/)
+* [[Doc] How to Use](https://docs.google.com/document/d/1yTDdMSLqvgATbo5lPzuNn4QRF0EyEPFuLoFB15beMww/)
+* [[Video] Installation Instruction](http://www.youtube.com/watch?v=RUJ9VwZLFSY)
+* [[Video] Purchase, Installation & Configuration](https://www.youtube.com/watch?v=X-ccRdEFcM0)
 
-= Features =
+= Help & Support =
 
-* Supports standard WordPress forms: registration form, login form, reset password form and comments form.
-* Compatible with Contact Form by BestWebSoft.
-* Hide Google Captcha (reCAPTCHA) for certain user roles.
-* Supports version 1 and version 2 Google Captcha (reCAPTCHA).
-* Supports standard Google Captcha (reCAPTCHA) themes.
-
-If you have a feature, suggestion or idea you'd like to see in the plugin, we'd love to hear about it! <a href="http://support.bestwebsoft.com/hc/en-us/requests/new" target="_blank">Suggest a Feature</a>
-
-= Recommended Plugins =
-
-The author of the Google Captcha (reCAPTCHA) also recommends the following plugins:
-
-* <a href="http://wordpress.org/plugins/updater/">Updater</a> - This plugin updates WordPress core and the plugins to the recent versions. You can also use the auto mode or manual mode for updating and set email notifications.
-There is also a premium version of the plugin <a href="http://bestwebsoft.com/products/updater/?k=f47f3eb3d739725d592249dbd129f7ff">Updater Pro</a> with more useful features available. It can make backup of all your files and database before updating. Also it can forbid some plugins or WordPress Core update.
+Visit our Help Center if you have any questions, our friendly Support Team is happy to help - <https://support.bestwebsoft.com/>
 
 = Translation =
 
-* Arabic (ar) (thanks to <a href="mailto:mor0cc0@live.com">SAID MOULLA</a>, www.aljoulane.ma)
-* Brazilian Portuguese (pt_BR) (thanks to <a href="mailto:epeetz@gmail.com">Elton Fernandes Peetz Prado</a>)
-* Bulgarian (bg_BG) (thanks to <a href="mailto:me@ygeorgiev.com">Yasen Georgiev</a>)
-* Czech (cs_CZ) (thanks to <a href="mailto:info@pamadessoft.cz">PaMaDeSSoft</a>, www.pamadessoft.cz)
-* Chinese Traditional (zh_TW) (thanks to <a href="mailto:nick20080808@gmail.com">Nick Lai</a>)
-* Farsi/Persian (fa_IR) (thanks to <a href="mailto:nasiri.amirreza.96@gmail.com">Amirreza Nasiri</a>, www.bytegate.ir)
-* French (fr_FR) (thanks to <a href="mailto:lefinnois@lefinnois.net">Denis Bodorr</a>)
-* German (de_DE) (thanks to <a href="mailto:fred.zimmer@medienconsulting.at">Fred Zimmer</a>,www.medienconsulting.at)
-* Greek (el) (thanks to Dimitris Karantonis, www.soft4real.com/en-UK)
-* Hindi (hi) (thanks to <a href="mailto:contact@developmentlogics.com">Development Logics Solutions Pvt Ltd</a>, www.developmentlogics.com)
-* Italian (it_IT) (thanks to <a href="mailto:wart17@hotmail.com">Istvan</a>)
-* Polish (pl_PL) (thanks to <a href="mailto:ryszard.glegola@translanet.com">Ryszard Glegola</a>, www.translanet.com)
+* Czech (cs_CZ) (thanks to [Michal Kučera](mailto:kucerami@gmail.com), www.n0lim.it, [PaMaDeSSoft](mailto:info@pamadessoft.cz), www.pamadessoft.cz)
 * Russian (ru_RU)
-* Spanish (es_ES) (thanks to <a href="mailto:cloudzeroxyz@gmail.com">Cloudzeroxyz</a>)
+* Spanish (es_ES)
 * Ukrainian (uk)
 
-Some of these translations are not complete. We are constantly adding new features which should be translated. If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com/hc/en-us/requests/new" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+Some of these translations are not complete. We are constantly adding new features which should be translated. If you would like to create your own language pack or update the existing one, you can send [the text of PO and MO files](http://codex.wordpress.org/Translating_WordPress) to [BestWebSoft](https://support.bestwebsoft.com/hc/en-us/requests/new) and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO [files Poedit](http://www.poedit.net/download.php).
 
-= Technical support =
+= Recommended Plugins =
 
-Dear users, our plugins are available for free download. If you have any questions or recommendations regarding the functionality of our plugins (existing options, new options, current issues), please feel free to contact us. Please note that we accept requests in English only. All messages in other languages won't be accepted.
+* [Updater](https://bestwebsoft.com/products/wordpress/plugins/updater/?k=f47f3eb3d739725d592249dbd129f7ff) - Automatically check and update WordPress website core with all installed plugins and themes to the latest versions.
+* [Contact Form](https://bestwebsoft.com/products/wordpress/plugins/contact-form/?k=56575444122cff9ab3ee3e640efb001a) - Simple contact form plugin any WordPress website must have.
+* [Subscriber](https://bestwebsoft.com/products/wordpress/plugins/subscriber/?k=e6d1742fcf1806a39afac207f7920cf3) - Add email newsletter sign up form to WordPress posts, pages and widgets. Collect data and subscribe your users.
+* [Multilanguage](https://bestwebsoft.com/products/wordpress/plugins/multilanguage/?k=e48e145002e4b2472e568a81d171b888) - Translate WordPress website content to other languages manually. Create multilingual pages, posts, widgets, menus, etc.
 
-If you notice any bugs in the plugins, you can notify us about it and we'll investigate and fix the issue then. Your request should contain URL of the website, issues description and WordPress admin panel credentials.
-Moreover we can customize the plugin according to your requirements. It's a paid service (as a rule it costs $40, but the price can vary depending on the amount of the necessary changes and their complexity). Please note that we could also include this or that feature (developed for you) in the next release and share with the other users then.
-We can fix some things for free for the users who provide translation of our plugin into their native language (this should be a new translation of a certain plugin, you can check available translations on the official plugin page).
+= Credits =
+
+* lib/recaptchalib.php - Copyright © 2007. Mike Crawford, Ben Maurer (reCAPTCHA - <http://recaptcha.net>). All Rights Reserved.
 
 == Installation ==
 
 1. Upload the `google-captcha` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin via the 'Plugins' menu in WordPress.
-3. Plugin settings are located in "BWS Panel" > "Google Captcha".
+3. Plugin settings are located in Google Captcha" menu.
 4. Create a form in post and insert the shortcode [bws_google_captcha] into the form.
 
-<a href="https://docs.google.com/document/d/1Nrccb-OLDN80yYjz_6-JPErdpZoslqfPV-g2IZ-GD0A/edit" target="_blank">View a Step-by-step Instruction on Google Captcha (reCAPTCHA) Installation</a>.
+[View a Step-by-step Instruction on Google Captcha (reCAPTCHA) Installation](https://docs.google.com/document/d/1-hvn6WRvWnOqj5v5pLUk7Awyu87lq5B_dO-Tv-MC9JQ/)
 
 http://www.youtube.com/watch?v=RUJ9VwZLFSY
 
@@ -89,18 +137,38 @@ http://www.youtube.com/watch?v=RUJ9VwZLFSY
 
 = How to get Google Captcha (reCAPTCHA) keys? =
 
-You should go to the Settings page and click the 'here' link. Then you should enter your domain name in text field and click 'Create Key' button.
-On the next screen you will see your public and private keys.
+Follow the next steps in order to get and enable Google Captcha (reCAPTCHA) protection using the official Google Captcha keys:
+1. Open your Wordpress admin dashboard.
+2. Navigate to the plugin Settings page.
+3. Click the "Get the API Keys" link.
+4. Enter your domain name and click "Create Key" button.
+5. You will see your public and private keys. Copy them and paste to the appropriate fields on plugin Settings page.
+6. Save changes.
 
-= How to hide Google Capthca for registered users? =
+= How to hide Google Captcha in Comments for registered users? =
 
-You should go to the Settings page and select the roles, for which you want to hide Google Captcha.
-Then you must click 'Save Changes' button.
+You should go to the Settings page and select the roles, for which you want to hide Google Captcha. Then you must click "Save Changes" button.
 
-= How to change Google Captcha (reCAPTCHA) style? =
+= Is it possible to Change the appearance and style of the Google Captcha (reCAPTCHA)? =
 
-You should go to the Settings page and select Theme from dropdown list.
-Then you must click the 'Save Changes' button.
+Follow the next steps in order to change the appearance of the Google Captcha:
+1. Open your Wordpress admin dashboard.
+2. Navigate to the plugin Settings page.
+3. Select reCAPTCHA version.
+4. Find the "Theme" option (only available for versions 1 and 2) and select the necessary style from the drop-down list.
+5. Save changes and check the result.
+
+= Google Captcha (reCaptcha) not displayed on my comment form. Why? =
+
+You might have a theme where "comments.php" is coded incorrectly. Wordpress version matters.
+(WP2 series): Make sure that you theme contains a tag `<?php do_action('comment_form', $post->ID); ?>` inside the file /wp-content/themes/[your_theme]/comments.php.
+Most WP2 themes already have it. The best place to put this tag is before the comment text area, you can move it up if it is below the comment text area.
+(WP3 series): WP3 has a new function comment_form inside of /wp-includes/comment-template.php.
+Your theme is probably not up-to-date to call that function from "comments.php".
+WP3 theme does not need the code line do_action('comment_form'… inside of /wp-content/themes/[your_theme]/comments.php.
+Instead it uses a new function call inside of "comments.php": `<?php comment_form(); ?>`
+If you have WP3 and captcha is still missing, make sure your theme has `<?php comment_form(); ?>`
+inside of /wp-content/themes/[your_theme]/comments.php (please check the Twenty Ten theme’s "comments.php" for proper example).
 
 = How can I change the location of Google Captcha (reCAPTCHA) in the comments form? =
 
@@ -109,30 +177,74 @@ It depends on the comments form. If the hook call by means of which captcha work
 `do_action( 'comment_form_after_fields' );`
 
 or any similar line - place it under the Submit button.
-
 In case there is no such hook in the comments file of your theme, then, unfortunately, this option is not available.
 
-= I would like to add Google Captcha (reCAPTCHA) to the custom form on my website. How can I do this? =
+= Add Google Captcha (reCAPTCHA) plugin to a custom form on your WordPress website =
 
+Follow the instructions below in order to add Google Captcha (reCAPTCHA) plugin to your custom PHP or HTML form:
 1. Install the Google Captcha (reCAPTCHA) plugin and activate it.
-2. Open the file with the form (where you would like to add Google Captcha (reCAPTCHA) to).
-3. Find a place to insert the code for the Google Captcha (reCAPTCHA) output.
-4. Insert the necessary lines:
+2. (Optional) If you would like to have an ability to enable and disable the reCAPTCHA for your custom form on the plugin settings page, please add the following code to the 'functions.php' file of your theme:
 
-`if( function_exists( 'gglcptch_display' ) ) { echo gglcptch_display(); } ;`
+`function add_custom_recaptcha_forms( $forms ) {
+    $forms['my_custom_form'] = array( "form_name" => "Custom Form Name" );
+    return $forms;
+}
+add_filter( 'gglcptch_add_custom_form', 'add_custom_recaptcha_forms' );`
 
-If the form is HTML you should insert the line with the PHP tags:
+In this example, 'my_custom_form' is a slug of your custom form.
 
-`<?php if( function_exists( 'gglcptch_display' ) ) { echo gglcptch_display(); } ; ?>`
+Please don't use the following form slugs since they are predefined by plugin settings: login_form, registration_form, reset_pwd_form, comments_form, contact_form, cf7, si_contact_form, jetpack_contact_form, sbscrbr, bbpress_new_topic_form, bbpress_reply_form, buddypress_register, buddypress_comments, buddypress_group, woocommerce_login, woocommerce_register, woocommerce_lost_password, woocommerce_checkout, wpforo_login_form, wpforo_register_form, wpforo_new_topic_form, wpforo_reply_form.
+- Save file changes;
+- Go to the "Settings" tab on the plugin settings page (Admin Dashboard -> Google Captcha); If everything is OK, you will see your form in 'Enable reCAPTCHA for' => 'Custom Forms' (with labels which you specified in the "gglcptch_add_custom_form" hook call function).
+- Enable it and configure form options as you need;
+- Click "Save Changes" button;
+
+If you don't add this code, no option for your custom form will be displayed on the plugin settings page and the reCAPTCHA will be always displayed in your custom form.
+
+3. Open the file with the form (where you would like to add reCAPTCHA);
+4. Find a place to insert the code for the reCAPTCHA output;
+If you completed the instructions in p. 2, then you should add:
+
+`<?php echo apply_filters( 'gglcptch_display_recaptcha', '', 'my_custom_form' ); ?>`
+
+In this example, the second parameter is a slug of your custom form.
+
+Otherwise, insert the following line:
+
+`<?php echo apply_filters( 'gglcptch_display_recaptcha', '' ); ?>`
+
+6. After that, you should add the following lines to the function of the entered data checking.
+If you completed the instructions in p. 2, then you should add:
+
+`<?php $check_result = apply_filters( 'gglcptch_verify_recaptcha', true, 'string', 'my_custom_form' );
+if ( true === $check_result ) { /* the reCAPTCHA answer is right */
+    /* do necessary action */
+} else { /* the reCAPTCHA answer is wrong or there are some other errors */
+    echo $check_result; /* display the error message or do other necessary actions in case when the reCAPTCHA test was failed */
+} ?>`
+
+In this example, the third parameter is a slug of your custom form.
+
+Otherwise, insert the following lines:
+
+`<?php $check_result = apply_filters( 'gglcptch_verify_recaptcha', true, 'string' );
+if ( true === $check_result ) { /* the reCAPTCHA answer is right */
+    /* do necessary action */
+} else { /* the reCAPTCHA answer is wrong or there are some other errors */
+    echo $check_result; /* display the error message or do other necessary actions in case when the reCAPTCHA test was failed */
+} ?>`
+
+If there is a variable in the check function responsible for the errors output, you can concatenate variable $check_result to this variable. If the 'gglcptch_verify_recaptcha' filter hook returns 'true', it means that you have entered the reCAPTCHA answer properly. In all other cases, the function will return the string with the error message.
+
+If you have followed all steps, but the problem remains, we can help you to configure your Google Captcha custom form. This will be a paid service since there are a lot of different custom forms and the code should be inserted individually into each of them, so we need some time to study each unique case.
 
 = I have some problems with the plugin's work. What Information should I provide to receive proper support? =
 
-Please make sure that the problem hasn't been discussed yet on our forum (<a href="http://support.bestwebsoft.com" target="_blank">http://support.bestwebsoft.com</a>). If no, please provide the following data along with your problem's description:
-
-1. the link to the page where the problem occurs
-2. the name of the plugin and its version. If you are using a pro version - your order number.
-3. the version of your WordPress installation
-4. copy and paste into the message your system status report. Please read more here: <a href="https://docs.google.com/document/d/1Wi2X8RdRGXk9kMszQy1xItJrpN0ncXgioH935MaBKtc/edit" target="_blank">Instruction on System Status</a>
+Please make sure that the problem hasn't been discussed yet on our forum (<https://support.bestwebsoft.com>). If no, please provide the following data along with your problem's description:
+- The link to the page where the problem occurs
+- The name of the plugin and its version. If you are using a pro version - your order number.
+- The version of your WordPress installation
+- Copy and paste into the message your system status report. Please read more here: [Instruction on System Status](https://docs.google.com/document/d/1Wi2X8RdRGXk9kMszQy1xItJrpN0ncXgioH935MaBKtc/)
 
 == Screenshots ==
 
@@ -141,11 +253,66 @@ Please make sure that the problem hasn't been discussed yet on our forum (<a hre
 3. Lost password form with Google Captcha (reCAPTCHA).
 4. Comments form with Google Captcha (reCAPTCHA).
 5. Contact Form with Google Captcha (reCAPTCHA).
-6. The form with Google Captcha (reCAPTCHA) version 1.
-7. The form with Google Captcha (reCAPTCHA) dark theme.
-8. Google Captcha (reCAPTCHA) Settings page. 
+6. The form with Google Captcha (reCAPTCHA) dark theme.
+7. Google Captcha (reCAPTCHA) Settings page.
+8. Google Captcha (reCAPTCHA) Whitelist page.
 
 == Changelog ==
+
+= V1.37 - 07.08.2018 =
+* PRO : The compatibility with Testimonials by BestWebSoft has been added.
+* Update : The Czech language file has been updated.
+* PRO : The bug related to WooCommerce Checkout form has been fixed.
+
+= V1.36 - 19.03.2018 =
+* PRO : The bug related to BuddyPress registration form has been fixed.
+
+= V1.35 - 08.02.2018 =
+* Update : The Czech language file has been updated.
+* Bugfix : Google Captcha responsive styles have been fixed.
+* Bugfix : Potential bruteforce vulnerability has been fixed.
+
+= V1.34 - 06.02.2018 =
+* NEW : The compatibility with Wordfence option "Immediately block the IP of users who try to sign in as these usernames" has been added.
+* Update : reCAPTCHA output functionality in forms has been optimized.
+* Update : The compatibility with Limit Attempts by BestWebSoft has been improved.
+
+= V1.33 - 15.11.2017 =
+* Bugfix : Redundant reCAPTCHA checking has been removed.
+* Update : The compatibility with Captcha by BestWebSoft and Contact Form by BestWebSoft plugins has been improved.
+
+= V1.32 - 13.10.2017 =
+* NEW : The compatibility with Limit Attempts by BestWebSoft plugin has been added.
+* NEW : Ability to hide Google Captcha for logged in users has been added.
+* Update : Ability to check Google Captcha using AJAX has been removed.
+* Update : Ability to display and check the Google Captcha in third-party forms using filters have been added.
+* Update : Ability to disable Google Captcha onload callback has been added.
+* PRO : The compatibility with bbPress, Fast Secure Contact Form, Jetpack, Forums - wpForo forms has been added.
+
+= V1.31 - 21.08.2017 =
+* Update : The plugin settings page has been updated.
+
+= V1.30 - 18.05.2017 =
+* Update : The Spanish language file has been updated.
+
+= V1.29 - 27.04.2017 =
+* NEW : Invisible reCAPTCHA version has been added.
+* Update : The Czech language file has been updated.
+
+= V1.28 - 14.04.2017 =
+* Bugfix : Multiple Cross-Site Scripting (XSS) vulnerability was fixed.
+
+= V1.27 - 26.10.2016 =
+* NEW : Ability to hide Google Captcha (reCAPTCHA) for whitelisted IP and ability to set whitelist notification.
+* PRO : Compatibility with WooCommerce plugin has been added.
+* PRO : List of reCAPTCHA languages updated.
+
+= V1.26 - 15.08.2016 =
+* Update : Hook's priority was changed for displaying captcha in the registration form.
+* Update : Compatible with JetPack.
+
+= V1.25 - 15.07.2016 =
+* Update : BWS panel section was updated.
 
 = V1.24 - 27.06.2016 =
 * Update : Functionality to use Captcha with Contact Form Multi was updated.
@@ -260,6 +427,55 @@ Please make sure that the problem hasn't been discussed yet on our forum (<a hre
 * NEW : Ability to add Google Captcha (reCAPTCHA) into standard forms was added.
 
 == Upgrade Notice ==
+
+= V1.37 =
+* New features added.
+* Languages updated.
+* Bugs fixed.
+
+= V1.36 =
+* Bugs fixed.
+
+= V1.35 =
+* Languages updated.
+* Bugs fixed.
+
+= V1.34 =
+* The compatibility with new WordPress version updated.
+* Functionality expanded.
+* Functionality improved.
+
+= V1.33 =
+* Bugs fixed.
+* Functionality improved.
+
+= V1.32 =
+* The compatibility with Limit Attempts plugin added.
+* New features added.
+* Functionality expanded.
+
+= V1.31 =
+* Appearance improved.
+
+= V1.30 =
+* Languages updated.
+
+= V1.29 =
+* Functionality expanded.
+* Languages updated.
+
+= V1.28 =
+* Bugs fixed.
+
+= V1.27 =
+* New features added.
+* Functionality improved.
+
+= V1.26 =
+* Bugs fixed.
+
+= V1.25 =
+Usability improved.
 
 = V1.24 =
 Functionality to use Captcha with Contact Form Multi was updated. BWS Panel section is updated.

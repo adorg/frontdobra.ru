@@ -2,13 +2,13 @@
 Contributors: iworks
 Donate link: http://iworks.pl/donate/og.php
 Tags: OpenGraph, Open Graph, Facebook, Twitter, social
-Requires at least: 3.6
-Tested up to: 4.9.4
-Stable tag: 2.4.8
+Requires at least: 3.8
+Tested up to: 4.9.8
+Stable tag: 2.7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Simple and tiny adds Open Graph metadata to your posts and pages so that they look great when shared on sites like Facebook and Google+.
+Simple method to add Open Graph metadata to your entries so that they look great when shared on sites like Facebook and Google+.
 
 == Description ==
 
@@ -65,7 +65,7 @@ There are 3 ways to install this plugin:
 
 = How do I configure the Open Graph plugin? =
 
-You don't; there's nothing to configure and there is no admin page. By default, it will use whatever standard WordPress data it can to populate the Open Graph data. There are very simple yet powerful filters you can use to modify or extend the metadata returned by the plugin, described below.
+There is nothing to configure and there is no admin page. By default, it will use standard WordPress data which can to populate the Open Graph. There are very simple and powerful filters which you can use to modify or extend the metadata returned by the plugin. More information below.
 
 = What plugin add for all type of content? =
 
@@ -85,7 +85,7 @@ You don't; there's nothing to configure and there is no admin page. By default, 
 * article:published_time - date of first article publication
 * article:modified_time - date of last article modification
 * article:tag - tags used in post
-* twitter:card - "summary.
+* twitter:card - summary
 * twitter:title - the same line og:title
 * twitter:description - the same like og:description
 * twitter:image - the same like og:image
@@ -100,6 +100,8 @@ You don't; there's nothing to configure and there is no admin page. By default, 
 = I installed OG and ... nothing happens! =
 
 Please be patient, sometimes you need more a day to see results. The reason of this is cache on Facebook. But check your plugins too and if you use and caching plugins, try to do "flush cache" on your site.
+
+You can force FB to refresh OpenGraph data by using this page https://developers.facebook.com/tools/debug/sharing/. Just go to Sharing Debugger, enter your URL and hit the button "Scrap Again".
 
 = How to filter values? =
 
@@ -189,6 +191,50 @@ But, if you really wanna use OG and serve "FB" OpenGraph tags, then you can use 
     }
 
 == Changelog ==
+
+
+= 2.7.0 (2018-10-21) =
+* Added proper og:url for custom post archive page. Props for [cabaltc](https://wordpress.org/support/users/cabaltc/)
+* Added proper og:url for a day, month and year archive page.
+* Added proper og:url for a search result.
+* Added proper og:url for taxonomy archive page.
+* Removed OpenGraph from 404 page.
+
+= 2.6.2 (2018-10-11) =
+* Fixed blog posts page og:url. Props for [cabaltc](https://wordpress.org/support/users/cabaltc/)
+
+= 2.6.1 (2018-09-06) =
+* Added `esc_url` for image src value.
+* Striped tags from OG tag value.
+
+= 2.6.0 (2018-06-04) =
+* Added attached audio files to `og:audio` tag.
+* Added attached video files to `og:video` tag.
+* Added `og:update_time` tag.
+* Added transient cache for single entries to decrease DB usage.
+* Updated Facebook locales list.
+
+= 2.5.3 (2018-05-09) =
+
+* Remove debug function, which broke whole plugin.
+
+= 2.5.2 (2018-05-08) =
+
+* Added filter `og_description_words` to allow change `og:description` length.
+* Fixed a problem with striping last word. Props for [intrex](https://wordpress.org/support/users/intrex/)
+* We are back to trim `og:description` to 55 words (it is default for `wp_trim_words()` function).
+
+= 2.5.1 (2018-04-16) =
+
+* Added og:image:width and og:image:height for first content image from site URL.
+
+= 2.5.0 (2018-04-14) =
+
+* Added og:image:width and og:image:height for featured image.
+
+= 2.4.9 (2018-02-27) =
+
+* Remove filter "the_content" to avoid incompatibility with some plugins.
 
 = 2.4.8 (2018-02-19) =
 
