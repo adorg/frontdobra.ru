@@ -4,17 +4,17 @@ Plugin Name: WP-Piwik
 
 Plugin URI: http://wordpress.org/extend/plugins/wp-piwik/
 
-Description: Adds Piwik stats to your dashboard menu and Piwik code to your wordpress header.
+Description: Adds Piwik statistics to your WordPress dashboard and is also able to add the Piwik Tracking Code to your blog.
 
-Version: 1.0.9
+Version: 1.0.19
 Author: Andr&eacute; Br&auml;kling
 Author URI: http://www.braekling.de
 Text Domain: wp-piwik
-Domain Path: /languages/
+Domain Path: /languages
 License: GPL3
 
 ****************************************************************************************** 
-	Copyright (C) 2009-2016 Andre Braekling (email: webmaster@braekling.de)
+	Copyright (C) 2009-today Andre Braekling (email: webmaster@braekling.de)
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -61,8 +61,10 @@ function wp_piwik_phperror() {
 	echo '</p></div>';
 }
 
-if (is_admin())
-	load_plugin_textdomain ( 'wp-piwik', false, 'wp-piwik' . DIRECTORY_SEPARATOR . 'languages' . DIRECTORY_SEPARATOR );
+function wp_piwik_load_textdomain() {
+    load_plugin_textdomain( 'wp-piwik', false, plugin_basename( dirname( __FILE__ ) ) . DIRECTORY_SEPARATOR . 'languages' . DIRECTORY_SEPARATOR );
+}
+add_action( 'plugins_loaded', 'wp_piwik_load_textdomain' );
 
 if (version_compare ( PHP_VERSION, '5.3.0', '<' ))
 	add_action ( 'admin_notices', 'wp_piwik_phperror' );
@@ -73,5 +75,9 @@ else {
 	spl_autoload_register ( 'wp_piwik_autoloader' );
 	$GLOBALS ['wp-piwik_debug'] = false;
 	if (class_exists ( 'WP_Piwik' ))
-		$GLOBALS ['wp-piwik'] = new WP_Piwik ();
+		add_action( 'init', 'wp_piwik_loader' );
+}
+
+function wp_piwik_loader() {
+	$GLOBALS ['wp-piwik'] = new WP_Piwik ();
 }
